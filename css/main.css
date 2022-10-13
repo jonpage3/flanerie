@@ -1,0 +1,46 @@
+body {
+    background-image: url('../assets/book_stack.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    
+  }
+
+.search-form {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #4B9CD3;
+    font-size: .6vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.search-button {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: 	#4B9CD3;
+    font-size: 0.6vw;
+    position: static;
+}
+
+#brand {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: .6vw;
+    color: 	#4B9CD3;
+    text-align: "center";
+    position: static;
+    /*left: 20%;*/
+}
+
+.box {
+    /*margin:0 auto;*/
+    display: flex;
+    flex-direction: column;
+    width:10%;
+
+    left: 10%;
+    padding:1%;
+    background:#F8F0E3;
+    border:2px solid #333;
+}
