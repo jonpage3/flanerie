@@ -1,6 +1,6 @@
 class BrowserVis {
     constructor(svg_id, filter, options) {
-        this.url = "../data/book_data.csv";
+        this.url = "data/book_data.csv";
         this.svg_id = svg_id;
 
         this.height = 500;
@@ -358,10 +358,10 @@ class BrowserVis {
             .attr("y",500)
             .attr("width",40)
             .attr("height",25)
-            .attr("xlink:href","../assets/forward_arrow.png");
+            .attr("xlink:href","assets/forward_arrow.png");
         
         svg.append("rect")
-            .attr("class","../arrow-forward")
+            .attr("class","arrow-forward")
             .attr("x",725)
             .attr("y",500)
             .attr("width",28)
