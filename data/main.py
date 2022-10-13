@@ -166,7 +166,7 @@ def clean_date(book_list):
 
 # write the list into a csv file
 def write_csv(booklist):
-    with open('book_data.csv', 'w', newline='') as csvfile:
+    with open('book_data.csv', 'w', newline='',encoding="utf-8") as csvfile:
         fieldnames = ['callnum', 'vol', 'checkouts', 'title', 'title2', 'author','pub_location','publisher','date',
                       'length', 'height', 'contents', 'subjects','subjects2','clean_date','clean_height','clean_length','color','id','clean_author','keyword_string','callnum_string','font_family','clean_title']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
