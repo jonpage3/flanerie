@@ -14,6 +14,10 @@ Using Sierra’s Create Lists retrieve a set of items (suggested search paramete
 | ------------------- | ----------- |----------------
 | Call No.              | LCCN call number.       |callnum|
 | Volume           | Volume of item if in a set.      |vol|
+|Total Checkouts|Number of times item has been checked out.|checkouts|
+|MARC Tag 245a|Title of the work.|title|
+|MARC Tag 245b|Remainder of title.|title2|
+|MARC Tag 100|Author’s name.|author|
 
 Store in csv file named “input.csv” in data folder.
 
