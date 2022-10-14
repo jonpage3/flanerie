@@ -18,6 +18,14 @@ Using Sierra’s Create Lists retrieve a set of items (suggested search paramete
 |MARC Tag 245a|Title of the work.|title|
 |MARC Tag 245b|Remainder of title.|title2|
 |MARC Tag 100|Author’s name.|author|
+|MARC Tag 260a|Place of publication.|pub_location|
+|MARC Tag 260b|Name of publisher.|publisher|
+|MARC Tag 260c|Date of publication.|date|
+|MARC Tag 300a|Number of physical pages.|length|
+|MARC Tag 300c|Dimensions.|height|
+|MARC Tag 505|Titles of separate works or parts of an item or the table of contents. |contents|
+|MARC Tag 650|Subject headings.|subjects |
+|MARC Tag 651|Geographical subject heading.|subjects2|
 
 Store in csv file named “input.csv” in data folder.
 
@@ -36,7 +44,7 @@ python main.py
 
 ## Visualization
 
-Uses the D3 library to create a “spine view” online library catalog that supports filter, ‘start at’ browsing, and individual book view of item contents. 
+flanerie.js uses the [D3 library](https://github.com/d3/d3) to create a “spine view” online library catalog that supports filter, ‘start at’ browsing, and individual book view of item contents. 
 
 Main parameters can be adjusted in the following files:<br>
 src/flanerie.js<br>
