@@ -19,9 +19,9 @@ Store in csv file named “input.csv” in data folder.
 
 ## Data Cleaning
 
-Requirements:
+#### Requirements:
 
-Within data folder:<br>  
+Within data folder:<br>
 pip install -r requirements.txt. 
 
 From the python console:<br>
