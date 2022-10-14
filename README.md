@@ -20,21 +20,23 @@ Store in csv file named “input.csv” in data folder.
 ## Data Cleaning
 
 Requirements:
-Within data folder run: 
+Within data folder run:<br>  
 pip install -r requirements.txt. 
-From the python console:
-import nltk
+From the python console:<br>
+import nltk<br>
 nltk.download(‘stopwords’)
 
 Run main.py
 
 ## Visualization
 
-Uses the D3 library to create a “spine view” online library catalog that supports filter, ‘start at’ browsing, and individual book view of item contents. Main parameters can be adjusted in the following files:
+Uses the D3 library to create a “spine view” online library catalog that supports filter, ‘start at’ browsing, and individual book view of item contents. 
 
-src/flanerie.js
+Main parameters can be adjusted in the following files:
+
+src/flanerie.js<br>
 css/main.css
 
-To install using npm:
-git pull origin node_branch
+To install using npm:<br>
+git pull origin node_branch<br>
 npm install
