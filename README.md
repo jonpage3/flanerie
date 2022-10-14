@@ -12,8 +12,8 @@ Using Sierra’s Create Lists retrieve a set of items (suggested search paramete
 
 | Sierra Field Name   | Description |CSV column name |
 | ------------------- | ----------- |----------------
-| Header              | Title       |
-| Paragraph           | Text        |
+| Call No.              | LCCN call number.       |callnum|
+| Volume           | Volume of item if in a set.      |vol|
 
 Store in csv file named “input.csv” in data folder.
 
@@ -33,8 +33,7 @@ python main.py
 
 Uses the D3 library to create a “spine view” online library catalog that supports filter, ‘start at’ browsing, and individual book view of item contents. 
 
-Main parameters can be adjusted in the following files:
-
+Main parameters can be adjusted in the following files:<br>
 src/flanerie.js<br>
 css/main.css
 
