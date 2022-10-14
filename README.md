@@ -20,13 +20,14 @@ Store in csv file named “input.csv” in data folder.
 ## Data Cleaning
 
 Requirements:
-Within data folder run:<br>  
+Within data folder:<br>  
 pip install -r requirements.txt. 
+
 From the python console:<br>
 import nltk<br>
-nltk.download(‘stopwords’)
+nltk.download(‘stopwords’)<br>
 
-Run main.py
+python main.py
 
 ## Visualization
 
