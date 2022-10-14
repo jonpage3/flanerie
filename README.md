@@ -2,7 +2,7 @@
 
 A spine view online library catalog using a dataset retrieved through the Sierra ILS.
 
-Master branch of project hosted here: https://opal.ils.unc.edu/~jepage/flanerie/. Dataset used is items from the UNC Chapel Hill collection stored at the TRLN Library Service Center. 
+Main branch of project hosted here: https://opal.ils.unc.edu/~jepage/flanerie/. Dataset used is items from the UNC Chapel Hill collection stored at the TRLN Library Service Center. 
 
 Previous repositories [here](https://github.com/jonpage3/library_browser) and [here](https://github.com/jonpage3/csv_data_cleaning). 
 
