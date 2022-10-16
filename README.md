@@ -8,7 +8,7 @@ Previous repositories [here](https://github.com/jonpage3/library_browser) and [h
 
 ## Data Collection
 
-Using Sierra’s Create Lists retrieve a set of items (suggested search parameters given in data/search.json) , and collect under following parameters and store in csv file using following column headers:
+Using Sierra’s Create Lists retrieve a set of items (suggested search parameters given in data/search.json). Store data with the following Sierra fields in a CSV file with the following column headers:
 
 | Sierra Field Name   | Description |CSV column name |
 | ------------------- | ----------- |----------------
@@ -51,5 +51,5 @@ src/flanerie.js<br>
 css/main.css
 
 To install using npm:<br>
-git pull origin node_branch<br>
+git clone -b node_branch https://github.com/jonpage3/flanerie.git<br>
 npm install
