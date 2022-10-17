@@ -53,3 +53,6 @@ css/main.css
 To install using npm:<br>
 git clone -b node_branch https://github.com/jonpage3/flanerie.git<br>
 npm install
+
+PHP 5 >= 5.5.0 required
+ 
